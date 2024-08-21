@@ -1,0 +1,40 @@
+site_name: Flask Documentation
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Introdução:
+      - O que é Flask?: intro/o_que_e_flask.md
+      - Instalação: intro/instalacao.md
+  - Roteamento:
+      - Visão Geral: roteamento/visao_geral.md
+      - Variáveis na URL: roteamento/variaveis_url.md
+  - Request e Response:
+      - Request: request_response/request.md
+      - Response: request_response/response.md
+  - Extensões:
+      - Usando Extensões: extensoes/usando_extensoes.md
+      - Principais Extensões: extensoes/principais_extensoes.md
+  - Blueprints:
+      - Visão Geral: blueprints/visao_geral.md
+      - Criando e Registrando Blueprints: blueprints/criando_registrando.md
+  - Manipulação de Formulários:
+      - Visão Geral: formularios/visao_geral.md
+      - Validação de Formulários: formularios/validacao.md
+  - Autenticação e Autorização:
+      - Visão Geral: autenticacao_autorizacao/visao_geral.md
+      - Implementando Autenticação: autenticacao_autorizacao/implementando_autenticacao.md
+      - Controle de Acesso: autenticacao_autorizacao/controle_acesso.md
+  - Banco de Dados:
+      - Visão Geral: banco_dados/visao_geral.md
+      - Usando SQLAlchemy: banco_dados/usando_sqlalchemy.md
+  - Tratamento de Erros:
+      - Visão Geral: tratamento_erros/visao_geral.md
+      - Manipulando Erros: tratamento_erros/manipulando_erros.md
+  - Sessões:
+      - Visão Geral: sessoes/visao_geral.md
+      - Gerenciamento de Sessões: sessoes/gerenciamento.md
+  - Implantação:
+      - Visão Geral: implantacao/visao_geral.md
+      - Implantação em Servidores: implantacao/servidores.md
+  - Exemplos: exemplos.md
